@@ -1,0 +1,27 @@
+@use './_variables' as *;
+
+button {
+  text-decoration: none;
+  color: $text-color;
+  padding: 8px;
+  font-family: AcroMono;
+  font-size: $font-size-s;
+  // font-weight: $font-weight-bold;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  cursor: url("../assets/c_pointer.png"), auto;
+
+  &.active {
+    color: $hover-color;
+  }
+
+  &:hover {
+    color: $hover-color;
+  }
+
+  &:visited,
+  &:active {
+    color: $hover-color;
+  }
+}
