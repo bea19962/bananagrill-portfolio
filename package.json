@@ -1,16 +1,16 @@
 {
-  "name": "my-react-app",
-  "private": true,
+  "name": "bananagrill-portfolio",
+  "homepage": "https://bea19962.github.io/bananagrill-portfolio/",
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-  "preview": "vite preview",
-  "predeploy": "vite build", 
-  "deploy": "gh-pages -d dist"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "@splinetool/react-spline": "^4.0.0",
@@ -34,7 +34,5 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "gh-pages": "^6.3.0",
     "vite": "^5.3.1"
-  },
-  "homepage": "https://bea19962.github.io/my-react-app"
-
+  }
 }
