@@ -1,27 +1,48 @@
 [
  {
-   "id": 1,
-   "image": "../src/assets/mock pics/00181-3951647073-cat,.jpeg",
-   "gif": "../src/assets/mock pics/Cat Pounce GIF.gif",
-   "tags": ["#3D", "#Blender", "#Animation"],
-  "size":"large",
-  "info":"the strongest boy"
- },
+      "id": 1,
+      "image": "/bananagrill-portfolio/pictures/termiteterror-cover.png",
+      "gif": "/bananagrill-portfolio/mock pics/Cat Pounce GIF.gif",
+      "tags": ["#3D", "#Blender", "#Gamedev"],
+      "size": "large",
+      "tooltip":"false",
+      "z-index": "2",
+      "info": {
+        "title": "Termite Terror",
+        "description": "Destroy luxurious property as a tiny termite! This game our entry for the Pulse GameJam 2025 hosted by ARD. I made the 3D assets, the termite, and his animation.",
+        "link": "https://neptuninteractive.itch.io/termite-terror",
+        "linkLabel": "Play Now"
+      }
+    },
  {
    "id": 2,
-   "image": "../src/assets/mock pics/Uni.jpeg",
-   "gif": "../src/assets/mock pics/Shrek Dancing GIF.gif",
+   "image": "/bananagrill-portfolio/mock pics/Uni.jpeg",
+   "gif": "/bananagrill-portfolio/mock pics/Shrek Dancing GIF.gif",
    "tags": ["#Embroidery", "#Clothes"],
-   "size":"medium",
-  "info":"chicken boy"
+   "size": "large",
+   "tooltip":"false",
+   "z-index": "1",
+   "info": {
+     "title": "Termite Terror",
+     "description": "Play as a termite to destroy a beautiful house. This game was developed for the Pulse Jam hosted by ARD. I made the 3D assets, the termite, and his animation.",
+     "link": "https://neptuninteractive.itch.io/termite-terror",
+     "linkLabel": "Play Now"
+   }
  },
  {
    "id": 3,
-   "image": "../src/assets/mock pics/images.jpeg",
-   "gif": "/assets/animated-image3.gif",
-   "tags": ["#3DPrinting", "#TechArt"],
+   "image": "/bananagrill-portfolio/mock pics/images.jpeg",
+   "gif": "/bananagrill-portfolio/mock pics/animated-image3.gif",
+   "tags": ["#3D", "#blender", "#Gamedev"],
    "size":"medium",
-     "info":"chicken boy"
+   "tooltip":"True",
+   "z-index": "2",
+   "info": {
+     "title": "Ranch Tycoon",
+     "description": "A simulation game heavily focused in building a farm and trying to automate it. Stardew Valey meets factorio with 3D graphics.",
+     "link": "https://eskimostudios.itch.io/ranchtycoon",
+     "linkLabel": "Play Now"
+   }
  },
  {
   "id": 4,
