@@ -4,7 +4,7 @@
       "image": "/bananagrill-portfolio/pictures/termiteterror-cover.png",
       "gif": "/bananagrill-portfolio/mock pics/Cat Pounce GIF.gif",
       "tags": ["#3D", "#Blender", "#Gamedev"],
-      "size": "large",
+      "size": "medium",
       "tooltip":"true",
       "z-index": "2",
       "info": {
@@ -32,10 +32,10 @@
  {
    "id": 3,
    "image": "/bananagrill-portfolio/mock pics/images.jpeg",
-   "gif": "/bananagrill-portfolio/mock pics/animated-image3.gif",
+   "gif": "/bananagrill-portfolio/mock pics/Cat Pounce GIF.gif",
    "tags": ["#3D", "#blender", "#Gamedev"],
-   "size":"medium",
-   "tooltip":"false",
+   "size":"small",
+   "tooltip":"True",
    "z-index": "2",
    "info": {
      "title": "Ranch Tycoon",

@@ -7,6 +7,7 @@
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.3s;
+  overflow:visible;
 
   &.small {
     width: 200px;
@@ -33,5 +34,12 @@
 
   &:hover{
     z-index: 1000;
+  }
+
+  .popover{
+    position: absolute;
+    background-color: aqua;
+    z-index: 99999;
+
   }
 }
