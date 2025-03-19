@@ -5,7 +5,7 @@
       "gif": "/bananagrill-portfolio/mock pics/Cat Pounce GIF.gif",
       "tags": ["#3D", "#Blender", "#Gamedev"],
       "size": "large",
-      "tooltip":"false",
+      "tooltip":"true",
       "z-index": "2",
       "info": {
         "title": "Termite Terror",
@@ -35,7 +35,7 @@
    "gif": "/bananagrill-portfolio/mock pics/animated-image3.gif",
    "tags": ["#3D", "#blender", "#Gamedev"],
    "size":"medium",
-   "tooltip":"True",
+   "tooltip":"false",
    "z-index": "2",
    "info": {
      "title": "Ranch Tycoon",
@@ -43,77 +43,5 @@
      "link": "https://eskimostudios.itch.io/ranchtycoon",
      "linkLabel": "Play Now"
    }
- },
- {
-  "id": 4,
-  "image": "../src/assets/mock pics/00181-3951647073-cat,.jpeg",
-  "gif": "../src/assets/mock pics/Cat Pounce GIF.gif",
-  "tags": ["#3D", "#Blender", "#Animation"],
- "size":"large",
-   "info":"BEAST"
-},
-{
-  "id": 5,
-  "image": "../src/assets/mock pics/Uni.jpeg",
-  "gif": "../src/assets/mock pics/Shrek Dancing GIF.gif",
-  "tags": ["#Embroidery", "#Clothes"],
-  "size":"medium",
-    "info":"chicken boy"
-},
-{
-  "id": 6,
-  "image": "../src/assets/mock pics/images.jpeg",
-  "gif": "/assets/animated-image3.gif",
-  "tags": ["#3DPrinting", "#TechArt"],
-  "size":"small",
-    "info":"the strongest boy"
-},
-{
-  "id": 7,
-  "image": "../src/assets/mock pics/00181-3951647073-cat,.jpeg",
-  "gif": "../src/assets/mock pics/Cat Pounce GIF.gif",
-  "tags": ["#3D", "#Blender", "#Animation"],
- "size":"large",
-   "info":"BEAAAST"
-},
-{
-  "id": 8,
-  "image": "../src/assets/mock pics/Uni.jpeg",
-  "gif": "../src/assets/mock pics/Shrek Dancing GIF.gif",
-  "tags": ["#Embroidery", "#Clothes"],
-  "size":"medium",
-    "info":"the strongest boy"
-},
-{
-  "id": 9,
-  "image": "../src/assets/mock pics/images.jpeg",
-  "gif": "/assets/animated-image3.gif",
-  "tags": ["#3DPrinting", "#TechArt"],
-  "size":"medium",
-    "info":"the strongest boy"
-},
-{
- "id": 10,
- "image": "../src/assets/mock pics/00181-3951647073-cat,.jpeg",
- "gif": "../src/assets/mock pics/Cat Pounce GIF.gif",
- "tags": ["#3D", "#Blender", "#Animation"],
-"size":"large",
-  "info":"the strongest boy"
-},
-{
- "id": 11,
- "image": "../src/assets/mock pics/Uni.jpeg",
- "gif": "../src/assets/mock pics/Shrek Dancing GIF.gif",
- "tags": ["#Embroidery", "#Clothes"],
- "size":"medium",
-   "info":"the strongest boy"
-},
-{
- "id": 12,
- "image": "../src/assets/mock pics/images.jpeg",
- "gif": "/assets/animated-image3.gif",
- "tags": ["#3DPrinting", "#TechArt"],
- "size":"small",
-"info":"the strongest boy"
-}
+ }
 ]

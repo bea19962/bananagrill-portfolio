@@ -1,38 +1,33 @@
-import { useState } from "react";
-import { usePopper } from "react-popper";
-import "../styles/_tooltip.scss";
+import { useFloating, offset, flip, shift } from "@floating-ui/react-dom";
 
-const Tooltip = ({ project, isVisible }) => {
-  const [referenceElement, setReferenceElement] = useState(null);
-  const [popperElement, setPopperElement] = useState(null);
-  const [arrowElement, setArrowElement] = useState(null);
-  
-  const { styles, attributes } = usePopper(referenceElement, popperElement, {
-    placement: "top",
-    modifiers: [
-      { name: "arrow", options: { element: arrowElement } },
-      { name: "offset", options: { offset: [0, 8] } },
-    ],
+const Tooltip = ({ targetRef, project }) => {
+  const { x, y, reference, floating, strategy } = useFloating({
+    reference: targetRef, // Attach to the card
+    placement: 'right', // This places the tooltip to the right of the card
+    middleware: [offset(100), flip(), shift()],
   });
 
-  if (!isVisible) return null;
-
   return (
-    <>
-      <div
-        ref={setPopperElement}
-        className="tooltip"
-        style={styles.popper}
-        {...attributes.popper}
-      >
-        <h3>{project.title}</h3>
-        <p>{project.description}</p>
+    <div
+      ref={floating}
+      style={{
+        position: strategy,
+        top: y ?? "",
+        left: x ?? "",
+        backgroundColor: "pink",
+        padding: "10px",
+        borderRadius: "8px",
+        zIndex: 100,
+      }}
+    >
+      <h3>{project.title}</h3>
+      <p>{project.description}</p>
+      {project.link && (
         <a href={project.link} target="_blank" rel="noopener noreferrer">
           {project.linkLabel}
         </a>
-        <div ref={setArrowElement} className="arrow" style={styles.arrow} />
-      </div>
-    </>
+      )}
+    </div>
   );
 };
 

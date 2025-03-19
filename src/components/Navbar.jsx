@@ -13,7 +13,7 @@ const Navbar = ({ activeSection, onLinkClick }) => {
     <nav className="navbar">
       <div className="navbar-brand">
        <p> \ B a n a n a g r i l l_</p> 
-       <p>3D artist, frontend developer</p>
+       <p>3D artist, developer</p>
       </div>
       <div
         className={`hamburger ${isMenuOpen ? "open" : ""}`}
