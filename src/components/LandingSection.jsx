@@ -19,7 +19,7 @@ const LandingSection = () => {
             delay={200}
           />
           <TypewriterText
-            text={`i love to experiment with art, tech and brain rot.`}
+            text={`i love to experiment with art and tech.`}
             delay={600}
           />
         </h2>
